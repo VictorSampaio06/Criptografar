@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Oswald:wght@200..700&family=Space+Grotesk:wght@300..700&display=swap');
+
+:root {
+    --corprincipail: #fff9ea;
+    --corsecundaria: #ca9a90;
+    --corterciaria: #b06b62;
+}
+
+body {
+    background-color: var(--corsecundaria);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.cabeçalho h1 {
+    color: var(--corprincipail);
+}
+
+.conteudo__img {
+    max-width: 70px;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+}
+
+.container-input {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+
+.container-input .input {
+    width: 400px;
+    height: 330px;
+}
+
+#input-texto {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: var(--corprincipail);
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+#output {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid var(--corprincipail);
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    margin-right: 3%;
+    padding: 10px;
+    box-sizing: border-box; }
+
+#output h2 {
+    text-align: center;
+    font-size: 25px;
+    color: var(--corprincipail);
+}
+
+#output span {
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    margin-top: 10px
+    
+}
+
+#output img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 4%;
+}
+
+#output textarea {
+    width: 100%;
+    height: calc(100% - 60px);
+    font-size: 20px;
+    color: var(--corprincipail);
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
+.container-bnt button,
+.btn-copiar {
+    border: 2px solid var(--corsecundaria);
+    border-radius: 10px;
+    text-decoration: none;
+    color: gray;
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.container-bnt button:hover,
+.btn-copiar:hover {
+    border: 2px solid var(--corterciaria);
+    transition: 0.5s all;
+    border-radius: 10px; 
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 15px;
+    background: var(--corprincipail);
+    color: var(--corsecundaria);
+    font-size: 16px;
+}
+
+.victor__sampaio {
+    text-decoration: none;
+    color: black;
+    font-size: 16px; 
+}
